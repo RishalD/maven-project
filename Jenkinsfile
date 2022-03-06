@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Deeploy to Staging'){
             steps{
-                build job: 'deployToTomcat'
+                build job: 'deploy-to-staging'
             }
         }
      }
